@@ -1,0 +1,19 @@
+name: zinart_app
+description: Zinart doors calculator
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.27.0
+  firebase_database: ^10.4.9
+  device_info_plus: ^10.1.0
+  pdf: ^3.10.8
+  printing: ^5.12.0
+
+flutter:
+  uses-material-design: true
